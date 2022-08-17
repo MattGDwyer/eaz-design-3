@@ -1214,6 +1214,10 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 16.   Sidebar
 17.   Error page
 */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Slider
 ================================================== */
 /*-- Main slide --*/
@@ -1885,6 +1889,14 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 .shuffle-btn-group label input {
   display: none;
+}
+
+.project-img {
+  height: 253px;
+}
+
+.project-img-wider {
+  width: 100%;
 }
 
 /* Project shuffle Item */
