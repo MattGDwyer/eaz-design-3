@@ -114,7 +114,7 @@ ul.top-info li p.info-text {
 /* Header area
 ================================================== */
 .header {
-  background: #fff;
+  // background: $color-secondary;
   position: relative;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
 }
@@ -134,13 +134,13 @@ ul.top-info li p.info-text {
 .header-one {
   ul.navbar-nav>li {
     padding-left: 0;
-    padding-right: 30px;
+    padding-right: 25px;
     @include desktop {
       padding-right: 0;
     }
   }
   .logo-area {
-    padding: 15px 0;
+    padding: 15px 0 0 0;
   }
 }
 
@@ -152,7 +152,7 @@ ul.top-info li p.info-text {
 }
 
 .header-two {
-  background: #fff;
+  background: black;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
   padding: 15px 0;
   .navbar-fixed {
@@ -180,9 +180,9 @@ ul.navbar-nav>li.active>a {
 /*-- Logo --*/
 .logo img {
   width: auto;
-  height: 60px;
+  height: 100px;
   padding: 0;
-  margin: 0 0 0 -25px;
+  margin: 0 0 -25px 0;
 }
 
 .header-two .logo img {
@@ -305,7 +305,7 @@ ul.top-info-box>li.nav-search i {
 /* Main navigation */
 
 .navbar-toggler {
-  float: left;
+  float: right;
   margin-top: 10px;
   padding: 12px;
 }
