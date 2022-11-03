@@ -858,6 +858,10 @@ ul.top-info-box > li.nav-search i {
   padding: 12px;
 }
 
+.nav-row {
+  min-width: 100vw;
+}
+
 .navbar {
   border-radius: 0;
   border: 0;
