@@ -59,7 +59,7 @@ html {
   font-size: 30px;
   line-height: 36px;
   font-weight: 600;
-  color: #272d33;
+  color: $color-secondary;
   margin: 20px 0 10px;
   @include desktop {
     font-size: 22px;
@@ -281,7 +281,7 @@ html {
 ================================================== */
 
 .call-to-action {
-  background-color: #272d33;
+  background-color: $color-secondary;
   padding: 30px;
 }
 
@@ -355,7 +355,7 @@ html {
 
 .featured-tab .nav-tabs>li>a {
   font-family: 'Roboto Slab', serif;
-  background: #272d33;
+  background: $color-secondary;
   color: #fff;
   text-shadow: none;
   font-weight: 700;
