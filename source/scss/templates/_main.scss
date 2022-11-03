@@ -28,7 +28,7 @@ html {
 /*-- Main slide --*/
 .banner-carousel .banner-carousel-item {
   height: 700px;
-  color: #fff;
+  color: #939DA3;
   background-position: 50% 50%;
   background-size: cover;
   @include desktop {
@@ -49,7 +49,7 @@ html {
   font-size: 16px;
   line-height: 39px;
   background: $color-primary;
-  color: #fff;
+  color: #939DA3;
   display: inline-block;
   padding: 0 15px;
   margin: 0 0 10px;
@@ -58,8 +58,8 @@ html {
 .slide-title {
   font-size: 30px;
   line-height: 36px;
-  font-weight: 300;
-  color: #fff;
+  font-weight: 600;
+  color: #272d33;
   margin: 20px 0 10px;
   @include desktop {
     font-size: 22px;
@@ -69,12 +69,14 @@ html {
   }
 }
 
+
 .slide-sub-title {
   font-style: normal;
   font-size: 60px;
   line-height: 58px;
   margin: 20px 0;
-  color: #fff;
+  color: #939DA3;
+  background-color: #efefef;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -85,6 +87,7 @@ html {
     font-size: 30px;
     line-height: 30px;
   }
+  // border: 1px solid black;
 }
 
 .slider-text {
