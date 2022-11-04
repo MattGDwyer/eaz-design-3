@@ -182,7 +182,7 @@ ul.navbar-nav>li.active>a {
   width: auto;
   height: 100px;
   padding: 0;
-  margin: 0 0 -25px 0;
+  // margin: 0 0 -25px 0;
 }
 
 .header-two .logo img {
@@ -310,6 +310,10 @@ ul.top-info-box>li.nav-search i {
   padding: 12px;
 }
 // THIS IS WHERE TO START!!!
+.spacer {
+  margin-left: -15vw;
+}
+
 .nav-row {
   min-width: 100vw;
 }
@@ -317,8 +321,7 @@ ul.top-info-box>li.nav-search i {
 .navbar {
   border-radius: 0;
   border: 0;
-  margin-bottom: 0;
-  // margin-left: 40vw;
+  margin-top: 30px;
 }
 
 .navbar-toggler {
@@ -549,7 +552,7 @@ ul.navbar-nav>li>a {
 
 .site-navigation .container,
 .search-area {
-  position: relative;
+  // position: fixed;
 }
 
 .search-area {
