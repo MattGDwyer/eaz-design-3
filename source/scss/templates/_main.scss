@@ -49,7 +49,7 @@ html {
   font-size: 16px;
   line-height: 39px;
   background: $color-primary;
-  color: #939DA3;
+  color: white;
   display: inline-block;
   padding: 0 15px;
   margin: 0 0 10px;
@@ -60,6 +60,8 @@ html {
   line-height: 36px;
   font-weight: 600;
   color: $color-secondary;
+  // background-color: #efefef;
+  text-decoration: solid;
   margin: 20px 0 10px;
   @include desktop {
     font-size: 22px;
@@ -68,7 +70,10 @@ html {
     font-size: 16px;
   }
 }
-
+#slide-title {
+  color: $color-secondary;
+  background-color: #efefef;
+}
 
 .slide-sub-title {
   font-style: normal;
@@ -443,9 +448,14 @@ html {
 /* Facts
 ================================================== */
 
+.facts-area {
+  padding: 0;
+}
 
 .facts-wrapper {
   text-align: center;
+  min-height: 30vh;
+  max-height: 10vh;
 }
 
 .facts-wrapper .ts-facts {
@@ -524,7 +534,15 @@ html {
   color: #fff;
 }
 
-
+.material-symbols-outlined {
+  color: $color-primary;
+  font-size: 60px;
+  // font-variation-settings:
+  // 'FILL' 0,
+  // 'wght' 400,
+  // 'GRAD' 0,
+  // 'opsz' 48;
+}
 /* Service box
 
 .ts-service-box .ts-service-icon i {

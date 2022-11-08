@@ -692,6 +692,11 @@ ul.top-info li p.info-text {
   padding: 15px 0 0 0;
 }
 
+.logo-link {
+  margin: 0 -50px 0 0;
+  padding: 0;
+}
+
 .navbar-fixed {
   z-index: 9999;
   position: fixed;
@@ -865,10 +870,15 @@ ul.top-info-box > li.nav-search i {
   min-width: 100vw;
 }
 
+.nav-container {
+  padding-left: 30px;
+}
+
 .navbar {
   border-radius: 0;
   border: 0;
   margin-top: 30px;
+  margin-right: 0px;
 }
 
 .navbar-toggler {
@@ -1249,7 +1259,7 @@ html {
   font-size: 16px;
   line-height: 39px;
   background: #ffb600;
-  color: #939DA3;
+  color: white;
   display: inline-block;
   padding: 0 15px;
   margin: 0 0 10px;
@@ -1260,6 +1270,8 @@ html {
   line-height: 36px;
   font-weight: 600;
   color: #272d33;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
   margin: 20px 0 10px;
 }
 @media (max-width: 991px) {
@@ -1271,6 +1283,11 @@ html {
   .slide-title {
     font-size: 16px;
   }
+}
+
+#slide-title {
+  color: #272d33;
+  background-color: #efefef;
 }
 
 .slide-sub-title {
@@ -1643,8 +1660,14 @@ html {
 
 /* Facts
 ================================================== */
+.facts-area {
+  padding: 0;
+}
+
 .facts-wrapper {
   text-align: center;
+  min-height: 30vh;
+  max-height: 10vh;
 }
 
 .facts-wrapper .ts-facts {
@@ -1718,6 +1741,11 @@ html {
 .ts-service-box-bg h4,
 .ts-service-box-bg h3 {
   color: #fff;
+}
+
+.material-symbols-outlined {
+  color: #ffb600;
+  font-size: 60px;
 }
 
 /* Service box

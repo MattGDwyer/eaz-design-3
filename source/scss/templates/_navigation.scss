@@ -144,6 +144,12 @@ ul.top-info li p.info-text {
   }
 }
 
+.logo-link {
+  margin: 0 -50px 0 0;
+  padding: 0;
+  // width: fit-content;
+}
+
 .navbar-fixed {
   z-index: 9999;
   position: fixed;
@@ -309,7 +315,7 @@ ul.top-info-box>li.nav-search i {
   margin-top: 10px;
   padding: 12px;
 }
-// THIS IS WHERE TO START!!!
+
 .spacer {
   margin-left: -15vw;
 }
@@ -317,11 +323,15 @@ ul.top-info-box>li.nav-search i {
 .nav-row {
   min-width: 100vw;
 }
+.nav-container {
+  padding-left: 30px;
+}
 
 .navbar {
   border-radius: 0;
   border: 0;
   margin-top: 30px;
+  margin-right: 0px;
 }
 
 .navbar-toggler {
