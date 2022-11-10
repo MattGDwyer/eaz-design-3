@@ -16,17 +16,41 @@
               </div>
 
               <div class="col-md-7 newsletter-form">
-                <form action="#" method="post">
-                    <div class="form-group">
-                      <label for="newsletter-email" class="content-hidden">Contact Form</label>
-                      <div class="col-xs-12 col-sm-12 col-lg-6">
-                      <input type="text" name="name" id="newsletter-email" class="form-control form-control-lg" placeholder="Enter your name" autocomplete="off">
+                <form id="contact-form" class="row contact-form no-gutter" action="#" method="post">
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="input-field name">
+                      <!-- <span class="input-icon" id="name"><i class="fas fa-twitter"></i></span> -->
+                      <input type="text" class="form-control" placeholder="Enter your name" required>
                     </div>
-                      <input type="email" name="email" id="newsletter-email" class="form-control form-control-lg" placeholder="Your email address" autocomplete="off">
-                      <input type="text" name="project" id="newsletter-email" class="form-control form-control-lg" placeholder="Tell us about your project" autocomplete="off">
-                      <input type="text" name="budget" id="newsletter-email" class="form-control form-control-lg" placeholder="What is your estimated budget?" autocomplete="off">
+                  </div> <!-- ./col- -->
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="input-field email">
+                      <!-- <span class="input-icon" id="email"><i class="tf-envelope2"></i></span> -->
+                      <input type="email" class="form-control" name="email" placeholder="Your email address" required>
                     </div>
-                </form>
+                  </div> <!-- ./col- -->
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="input-field">
+                      <!-- <span class="input-icon" id="subject"><i class="tf-pricetags"></i></span> -->
+                      <input type="text" class="form-control" name="subject" placeholder="What's your budget?" required>
+                    </div>
+                  </div> <!-- ./col- -->
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="input-field message">
+                      <!-- <span class="input-icon"><i class="tf-pencil2"></i></span> -->
+                      <textarea name="message" id="message" class="form-control"
+                        placeholder="Tell us about your project" required></textarea>
+                    </div>
+                  </div> <!-- ./col- -->
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="input-field">
+                      <span class="btn-border">
+                        <button type="submit" class="btn btn-primary btn-custom-border text-uppercase">Send Message
+                          now</button>
+                      </span>
+                    </div>
+                  </div> <!-- ./col- -->
+                </form> <!-- /.row -->
               </div>
           </div><!-- Newsletter end -->
         </div><!-- Col end -->

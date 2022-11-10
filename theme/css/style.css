@@ -2430,20 +2430,23 @@ img.testimonial-thumb {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: -13px;
 }
 .footer-social ul li {
   display: inline-block;
 }
 .footer-social ul li a i {
   display: block;
-  font-size: 16px;
-  color: #999;
+  font-size: 24px;
+  color: white;
   transition: 400ms;
   padding: 10px 13px;
 }
 .footer-social ul li:hover {
-  color: #fff;
+  color: #ffb600 !important;
+}
+
+.fa-facebook-f:hover {
+  color: #ffb600;
 }
 
 /* Links */
@@ -2472,6 +2475,10 @@ img.testimonial-thumb {
 
 .working-hours .text-right {
   float: right;
+}
+
+.ada-link:hover {
+  color: #ffb600;
 }
 
 /*-- Copyright --*/
@@ -2885,7 +2892,7 @@ img.testimonial-thumb {
 }
 
 .contact-info-box i {
-  float: left;
+  float: right;
   font-size: 24px;
   color: #ffb600;
 }
@@ -2896,13 +2903,58 @@ img.testimonial-thumb {
 
 .contact-info-box-content h4 {
   font-size: 16px;
-  margin-top: 0;
+  margin-top: 10px;
   line-height: normal;
   font-weight: 700;
 }
 
 .contact-info-box-content p {
   margin-bottom: 0;
+}
+
+.contact-form .input-field {
+  margin-bottom: 10px;
+}
+.contact-form .input-field.name {
+  margin-right: 5px;
+}
+.contact-form .input-field.email {
+  margin-left: 5px;
+}
+.contact-form .input-icon {
+  background-color: #272d33;
+  border-radius: 3px 0 0 3px;
+  border-right: 1px solid white;
+  line-height: 48px;
+  min-width: 53px;
+  text-align: center;
+  left: 0;
+  line-height: 48px;
+  min-width: 53px;
+  position: absolute;
+  top: 0;
+}
+.contact-form .form-control {
+  background-color: #272d33;
+  color: #bcbcbc;
+  border: 0 none;
+  border-radius: 3px;
+  height: 48px;
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+.contact-form .form-control:focus {
+  box-shadow: none;
+  color: #fff;
+}
+.contact-form textarea.form-control {
+  border-radius: 3px;
+  height: 120px;
+}
+.contact-form .message .input-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 label {
