@@ -1161,7 +1161,7 @@ img.testimonial-thumb {
 /* Newsletter */
 
 .ts-newsletter {
-  background: #252525;
+  background: $color-secondary;
   position: relative;
   min-height: 115px;
   padding: 15px 0 0 50px;
@@ -1177,7 +1177,7 @@ img.testimonial-thumb {
   &:after {
     content: "";
     position: absolute;
-    background: #252525;
+    background: $color-secondary;
     display: block;
     width: 100%;
     height: 100%;
@@ -1236,8 +1236,9 @@ img.testimonial-thumb {
 /*- Footer common */
 
 .footer {
-  background-color: #0d0d0d;
+  background-color: $color-secondary;
   color: #999;
+  border-top: 1px solid black;
 }
 
 
@@ -1804,7 +1805,7 @@ img.testimonial-thumb {
   }
 
   .form-control {
-    background-color: $color-secondary;
+    background-color: #efefef;
     color: #bcbcbc;
     border: 0 none;
     border-radius: 3px;
@@ -1830,6 +1831,12 @@ img.testimonial-thumb {
       position: absolute;
       left: 0;
       top: 0;
+    }
+  }
+  .btn-custom-border {
+    background-color: $color-quatrinary;
+    &:hover {
+      background-color: $color-primary;
     }
   }
 }

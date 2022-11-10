@@ -2318,7 +2318,7 @@ img.testimonial-thumb {
 
 /* Newsletter */
 .ts-newsletter {
-  background: #252525;
+  background: #272d33;
   position: relative;
   min-height: 115px;
   padding: 15px 0 0 50px;
@@ -2339,7 +2339,7 @@ img.testimonial-thumb {
 .ts-newsletter:after {
   content: "";
   position: absolute;
-  background: #252525;
+  background: #272d33;
   display: block;
   width: 100%;
   height: 100%;
@@ -2392,8 +2392,9 @@ img.testimonial-thumb {
 ================================================== */
 /*- Footer common */
 .footer {
-  background-color: #0d0d0d;
+  background-color: #272d33;
   color: #999;
+  border-top: 1px solid black;
 }
 
 .footer-main {
@@ -2935,7 +2936,7 @@ img.testimonial-thumb {
   top: 0;
 }
 .contact-form .form-control {
-  background-color: #272d33;
+  background-color: #efefef;
   color: #bcbcbc;
   border: 0 none;
   border-radius: 3px;
@@ -2955,6 +2956,12 @@ img.testimonial-thumb {
   position: absolute;
   left: 0;
   top: 0;
+}
+.contact-form .btn-custom-border {
+  background-color: #252525;
+}
+.contact-form .btn-custom-border:hover {
+  background-color: #ffb600;
 }
 
 label {
