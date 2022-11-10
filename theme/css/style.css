@@ -1646,9 +1646,12 @@ html {
 }
 
 /* Facts
-================================================== */
+==================================================  */
 .facts-area {
   padding: 0;
+  box-shadow: -2px 9px 25px 3px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -2px 9px 25px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -2px 9px 25px 3px rgba(0, 0, 0, 0.4);
 }
 
 .facts-wrapper {
@@ -1910,6 +1913,7 @@ html {
 
 .project-img {
   height: 253px;
+  width: 100%;
 }
 
 .project-img-wider {
@@ -1965,7 +1969,7 @@ html {
 .shuffle-item .project-img-container .project-item-info {
   position: absolute;
   top: 50%;
-  margin-top: -10%;
+  margin-top: -20%;
   bottom: 0;
   left: 0;
   right: 0;
