@@ -502,7 +502,7 @@ a[href^=tel] {
 }
 @media (max-width: 767px) {
   .btn-primary,
-.btn-dark {
+  .btn-dark {
     font-size: 13px;
   }
 }
@@ -942,7 +942,7 @@ ul.navbar-nav > li > a i {
     color: #fff;
   }
   .header-two ul.navbar-nav > li.active > a i,
-.header-two ul.navbar-nav > li > a.active i {
+  .header-two ul.navbar-nav > li > a.active i {
     color: #ffb600;
   }
 }
