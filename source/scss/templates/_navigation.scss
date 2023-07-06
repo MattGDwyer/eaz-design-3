@@ -73,17 +73,21 @@ ul.top-info li p.info-text {
   padding: 0;
   margin: 0;
   margin-right: -12px;
+
   @include tablet {
     margin-right: 0;
   }
+
   li {
     display: inline-block;
     padding: 0;
+
     a {
       color: #2c2c2c;
       font-size: 14px;
       transition: 400ms;
       padding: 9px 12px;
+
       &:hover {
         color: #333;
       }
@@ -113,32 +117,36 @@ ul.top-info li p.info-text {
 
 /* Header area
 ================================================== */
-.header {
-  // background: $color-secondary;
+header {
   position: relative;
-  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  height: 75vh;
 }
 
 .header-one,
 .header-one .site-navigation {
   background: #23282d;
 }
+
 .header-one .navbar-collapse {
   padding-left: 0;
 }
+
 .navbar-collapse.collapse {
   @include desktop {
     overflow-y: auto;
   }
 }
+
 .header-one {
   ul.navbar-nav>li {
     padding-left: 0;
     padding-right: 25px;
+
     @include desktop {
       padding-right: 0;
     }
   }
+
   .logo-area {
     padding: 15px 0 0 0;
   }
@@ -161,22 +169,27 @@ ul.top-info li p.info-text {
   background: black;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
   padding: 15px 0;
+
   .navbar-fixed {
     background-color: #fff;
   }
 }
+
 ul.navbar-nav>li>a {
   padding: 15px 0 !important;
   color: #fff;
 }
+
 @include desktop {
   ul.navbar-nav>li>a {
     padding: 1px 0 !important;
   }
+
   .navbar-nav {
     margin-bottom: 15px;
   }
 }
+
 ul.navbar-nav>li:hover>a,
 ul.navbar-nav>li.active>a {
   color: $color-primary !important;
@@ -206,6 +219,7 @@ ul.top-info-box {
   margin: 0;
   padding: 0;
   float: right;
+
   @include tablet {
     display: flex;
     justify-content: center;
@@ -222,6 +236,7 @@ ul.top-info-box li {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
   padding-right: 25px;
   margin-right: 25px;
+
   @include tablet {
     border: 0;
     text-align: center;
@@ -230,6 +245,7 @@ ul.top-info-box li {
     padding: 0;
     margin-top: 10px;
   }
+
   @include mobile-xs {
     border: 0;
     text-align: center;
@@ -323,6 +339,7 @@ ul.top-info-box>li.nav-search i {
 .nav-row {
   min-width: 100vw;
 }
+
 .nav-container {
   padding-left: 30px;
 }
@@ -340,10 +357,12 @@ ul.top-info-box>li.nav-search i {
   border-radius: 0;
   font-size: 1rem;
   background: $color-primary;
+
   &:focus {
     outline: 0;
   }
 }
+
 .navbar-dark .navbar-toggler-icon,
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -358,15 +377,18 @@ ul.navbar-nav>li.active>a {
 ul.navbar-nav>li {
   padding: 0 13px;
   position: relative;
+
   @include desktop-lg {
     padding: 0 9px;
+
     .nav-link {
-        font-size: 12px;
+      font-size: 12px;
     }
   }
 }
+
 .header-two {
-  .navbar-nav > .header-get-a-quote {
+  .navbar-nav>.header-get-a-quote {
     top: -4px;
   }
 }
@@ -394,6 +416,7 @@ ul.navbar-nav>li>a:focus {
 ul.navbar-nav>li>a i {
   font-weight: 700;
 }
+
 @include desktop {
   ul.navbar-nav>li>a i {
     float: right;
@@ -401,13 +424,15 @@ ul.navbar-nav>li>a i {
     padding: 6px 10px;
     margin-top: 7px;
   }
+
   .header-two {
     ul.navbar-nav>li>a i {
-        color: #fff;
+      color: #fff;
     }
+
     ul.navbar-nav>li.active>a i,
     ul.navbar-nav>li>a.active i {
-        color: $color-primary;
+      color: $color-primary;
     }
   }
 }
@@ -477,9 +502,10 @@ ul.navbar-nav>li>a {
   border-top: 2px solid $color-primary;
   padding: 0 20px;
   margin: 0;
-  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+
   @include desktop {
-    box-shadow: 0 6px 12px rgba(0,0,0,.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .05);
   }
 }
 
@@ -517,6 +543,7 @@ ul.navbar-nav>li>a {
   letter-spacing: .3px;
   border-bottom: 1px solid #e5e5e5;
   color: #333333;
+
   @include desktop {
     padding: 12px 0;
   }
@@ -576,6 +603,7 @@ ul.navbar-nav>li>a {
   top: 22px;
   right: 18px;
   color: #999;
+
   @include desktop {
     top: 17px;
   }
@@ -593,6 +621,7 @@ ul.navbar-nav>li>a {
   width: 300px;
   z-index: 10;
   margin-top: 0;
+
   @include desktop {
     top: 58px;
   }
@@ -616,6 +645,7 @@ ul.navbar-nav>li>a {
   cursor: pointer;
   background: #23282d;
   padding: 5px;
+
   @include desktop {
     top: -46px;
   }
@@ -643,9 +673,11 @@ ul.navbar-nav>li>a {
   text-transform: capitalize;
   color: #fff;
   margin-top: 5px;
+
   @include desktop-lg {
     padding: 12px !important;
   }
+
   @include desktop {
     padding: 12px 30px !important;
   }
