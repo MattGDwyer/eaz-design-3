@@ -44,7 +44,7 @@ h1 {
   font-family: "Lexend Peta", sans-serif;
   font-size: 16em;
   text-align: center;
-  margin-top: 50px;
+  padding-top: 50px;
   color: #eee5d8;
 }
 
@@ -63,7 +63,7 @@ h1 {
   background-color: #26292c;
   text-align: center;
   font-size: 1.5em;
-  margin-top: 40vh;
+  margin-top: 32vh;
 }
 
 h2 {
@@ -111,6 +111,7 @@ body {
   border: 0;
   margin: 0;
   padding: 0;
+  background-color: #eee5d8;
 }
 
 .body-inner {
@@ -673,8 +674,9 @@ ul.top-info li p.info-text {
 /* Header area
 ================================================== */
 header {
-  position: relative;
   height: 75vh;
+  background-image: url("/images/eaz-house-splash.jpeg");
+  background-position: center;
 }
 
 .header-one,

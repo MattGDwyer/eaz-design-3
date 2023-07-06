@@ -14,6 +14,7 @@ body {
   border: 0;
   margin: 0;
   padding: 0;
+  background-color: #eee5d8;
 }
 
 .body-inner {
@@ -115,13 +116,13 @@ a:focus {
   background: #f9f9f9;
 }
 
-.dark-bg{
+.dark-bg {
   background: #252525;
   color: #fff;
 }
 
 .dark-bg h2,
-.dark-bg h3{
+.dark-bg h3 {
   color: #fff;
 }
 
@@ -168,7 +169,7 @@ a:focus {
   position: absolute;
   height: 1px;
   width: 1px;
-  clip: rect(1px,1px,1px,1px);
+  clip: rect(1px, 1px, 1px, 1px);
   border: 0;
   overflow: hidden
 }
@@ -210,20 +211,21 @@ a:focus {
 /* Title Border */
 
 /* Section title */
-.section-title{
+.section-title {
   font-size: 18px;
   line-height: 28px;
-  margin:0;
+  margin: 0;
   text-transform: uppercase;
   font-weight: 300;
 }
 
-.section-sub-title{
+.section-sub-title {
   font-weight: 900;
   font-size: 36px;
   line-height: 46px;
   margin: 0 0 60px;
   color: #212121;
+
   @include mobile {
     font-size: 28px;
   }
@@ -231,11 +233,11 @@ a:focus {
 
 /* Column title */
 
-.column-title{
+.column-title {
   margin: 0 0 40px;
 }
 
-.column-title-small{
+.column-title-small {
   font-size: 20px;
   margin: 0 0 25px;
 }
@@ -309,22 +311,26 @@ blockquote {
   position: relative;
   border-left: 3px solid $color-primary;
   padding-left: 40px;
+
   &.text-center {
     border-top: 3px solid $color-primary;
     border-left: 0;
     padding-left: 25px;
     padding-top: 50px;
+
     &:before {
       left: 50%;
       top: 10px;
       transform: translateX(-50%);
     }
   }
+
   &.text-right {
     border-right: 3px solid $color-primary;
     padding-right: 40px;
     border-left: 0;
     padding-left: 25px;
+
     &:before {
       left: auto;
       right: 5px;
