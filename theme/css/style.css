@@ -41,22 +41,26 @@ h1 {
 }
 
 .hero-text {
+  position: absolute;
+  top: 0px;
+  min-height: 20vh;
   font-family: "Lexend Peta", sans-serif;
-  font-size: 15vw;
-  text-align: center;
-  padding-top: 50px;
+  font-size: 16vw;
   color: #eee5d8;
 }
 
 .hero-subtitle {
-  margin-top: 12vh;
+  margin-top: 22vh;
   margin-left: 7vw;
-  font-size: 5vw;
+  font-size: 7.5vh;
   font-weight: 800;
   color: #eee5d8;
+  white-space: nowrap;
 }
 
 .header-bottom-border {
+  position: absolute;
+  top: 75vh;
   overflow-x: hidden;
   overflow-y: hidden;
   display: block;
@@ -66,7 +70,6 @@ h1 {
   background-color: #26292c;
   text-align: center;
   font-size: 1.75vw;
-  margin-top: 38vh;
   margin-left: -10vw;
 }
 
@@ -681,6 +684,7 @@ header {
   height: 75vh;
   background-image: url("/images/eaz-house-splash.jpeg");
   background-position: center;
+  border: 1px solid transparent;
 }
 
 .header-one,
@@ -1244,6 +1248,10 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 16.   Sidebar
 17.   Error page
 */
+* {
+  outline: solid 1px red;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -1415,7 +1423,8 @@ html {
 .slick-dots li button::before {
   font-size: 12px;
 }
-.slick-dots li button:hover:before, .slick-dots .slick-dots li button:focus:before,
+.slick-dots li button:hover:before,
+.slick-dots .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
   color: #ffb600;
