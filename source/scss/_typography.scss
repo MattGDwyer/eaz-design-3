@@ -6,6 +6,7 @@
 body {
   background: #fff;
   color: #555;
+
 }
 
 body,
@@ -38,19 +39,26 @@ h1 {
 .hero-text {
   position: absolute;
   top: 0px;
-  min-height: 20vh;
+  width: 100vw;
+  height: max-content;
   font-family: 'Lexend Peta', sans-serif;
-  font-size: 16vw;
+  font-size: 15vw;
+  line-height: 10vw;
+  text-align: center;
   color: #eee5d8;
 }
 
 .hero-subtitle {
-  margin-top: 22vh;
-  margin-left: 7vw;
-  font-size: 7.5vh;
+  position: absolute;
+  top: 200px;
+  margin-left: 6vw;
+  font-family: 'Lexend Peta', sans-serif;
+  font-size: calc(.75rem + 3.3vw);
   font-weight: 800;
+  line-height: 24px;
   color: #eee5d8;
   white-space: nowrap;
+
 }
 
 .header-bottom-border {
@@ -64,8 +72,7 @@ h1 {
   color: #eee5d8;
   background-color: #26292c;
   text-align: center;
-  font-size: 1.75vw;
-  // margin-top: 38vh;
+  font-size: 1.75em;
   margin-left: -10vw;
 }
 
