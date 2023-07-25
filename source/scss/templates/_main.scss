@@ -513,6 +513,24 @@ html {
 
 /* Service box */
 
+.ts-features-container {
+  // margin: 0 10vw 0 10vw;
+  width: 100vw;
+  // height: 100vh;
+}
+
+
+.img-stairs {
+  height: 500px;
+  // margin-left: 10vw;
+  // margin-right: 10vw;
+}
+
+.img-house {
+  height: 500px;
+  object-fit: cover;
+}
+
 .ts-service-area {
   background-color: $color-secondary;
   color: $color-tertiary;
@@ -881,7 +899,7 @@ html {
 }
 
 .general-btn .btn-primary:hover {
-  background: #000;
+  background: $color-primary;
 }
 
 
@@ -1299,7 +1317,7 @@ img.testimonial-thumb {
 /*- Footer common */
 
 .footer {
-  background-color: $color-quatrinary;
+  background-color: $color-secondary;
   color: #999;
   border-top: 1px solid black;
 }
@@ -1406,7 +1424,7 @@ img.testimonial-thumb {
 /*-- Copyright --*/
 
 .copyright {
-  background: $color-primary;
+  background: $color-quatrinary;
   color: #111;
   padding: 25px 0;
   position: relative;
@@ -1457,7 +1475,7 @@ img.testimonial-thumb {
   line-height: 36px;
   background: rgba(0, 0, 0, 0.9);
   border-radius: 3px;
-  color: $color-primary;
+  color: $color-tertiary;
   font-weight: 700;
   font-size: 16px;
   padding: 0;
@@ -1471,7 +1489,7 @@ img.testimonial-thumb {
 }
 
 #back-to-top .btn.btn-primary:hover {
-  color: #fff;
+  color: $color-quatrinary;
 }
 
 

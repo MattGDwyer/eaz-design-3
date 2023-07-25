@@ -55,7 +55,7 @@ h1 {
 
 .hero-subtitle {
   position: absolute;
-  top: 200px;
+  top: 25vh;
   margin-left: 6vw;
   font-family: "Lexend Peta", sans-serif;
   font-size: calc(0.75rem + 3.3vw);
@@ -536,7 +536,7 @@ a[href^=tel] {
   padding: 12px 20px 10px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #fff;
+  color: #596b26;
   font-family: "Montserrat", sans-serif;
   transition: 350ms;
   font-size: 14px;
@@ -549,7 +549,7 @@ a[href^=tel] {
 }
 
 .btn-white.btn-primary {
-  background: #fff;
+  background: #596b26;
   color: #ffb600;
 }
 
@@ -564,16 +564,16 @@ a[href^=tel] {
 .btn-primary:hover,
 .btn-dark:hover,
 .btn-white.btn-primary:hover {
-  background: #111;
-  color: #fff;
+  background: #596b26;
+  color: #ffbf5b;
 }
 .btn-primary:hover:active, .btn-primary:hover:focus,
 .btn-dark:hover:active,
 .btn-dark:hover:focus,
 .btn-white.btn-primary:hover:active,
 .btn-white.btn-primary:hover:focus {
-  color: #fff;
-  background-color: #111 !important;
+  color: #ffbf5b;
+  background-color: #596b26 !important;
 }
 
 .general-btn {
@@ -1733,6 +1733,20 @@ html {
 /* Services
 ================================================== */
 /* Service box */
+.ts-features-container {
+  width: 100vw;
+}
+
+.img-stairs {
+  height: 500px;
+}
+
+.img-house {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .ts-service-area {
   background-color: #596b26;
   color: #ffbf5b;
@@ -2064,7 +2078,7 @@ html {
 }
 
 .general-btn .btn-primary:hover {
-  background: #000;
+  background: #253857;
 }
 
 /* Project owl */
@@ -2451,7 +2465,7 @@ img.testimonial-thumb {
 ================================================== */
 /*- Footer common */
 .footer {
-  background-color: #eee5d8;
+  background-color: #596b26;
   color: #999;
   border-top: 1px solid black;
 }
@@ -2543,7 +2557,7 @@ img.testimonial-thumb {
 
 /*-- Copyright --*/
 .copyright {
-  background: #253857;
+  background: #eee5d8;
   color: #111;
   padding: 25px 0;
   position: relative;
@@ -2594,7 +2608,7 @@ img.testimonial-thumb {
   line-height: 36px;
   background: rgba(0, 0, 0, 0.9);
   border-radius: 3px;
-  color: #253857;
+  color: #ffbf5b;
   font-weight: 700;
   font-size: 16px;
   padding: 0;
@@ -2609,7 +2623,7 @@ img.testimonial-thumb {
 }
 
 #back-to-top .btn.btn-primary:hover {
-  color: #fff;
+  color: #eee5d8;
 }
 
 /* Sub Pages
